@@ -1,18 +1,8 @@
 #include <stdio.h>
-
-#define NUMBER '0'
-#define MAX_LEN 128
-#define BUFFER_SIZE 128
+#include "helpers.h"
 
 #define global static
 
-typedef char  int8;
-typedef short int16;
-typedef int   int32;
-
-typedef unsigned char  uint8;
-typedef unsigned short uint16;
-typedef unsigned int   uint32;
 
 double pow(int32 number, int32 power);
 double to_float(char *string);
@@ -23,6 +13,7 @@ int32 get_operation(char *string);
 int32 getch(void);
 void ungetch(char character);
 int8 isdigit(char character);
+
 
 typedef struct
 {
@@ -39,7 +30,6 @@ typedef struct
 global stack_t stack_buffer;
 global buffer_t input_buffer;
 
-   
 
 int main(int argc, char **argv)
 {
@@ -296,5 +286,4 @@ int8 isdidit(char character)
 {
     return (character >= '0' && character <= '9') ? 1 : 0;
 }
-
 
