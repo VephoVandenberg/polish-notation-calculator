@@ -3,6 +3,7 @@
 #define NUMBER '0'
 #define MAX_LEN 128
 #define BUFFER_SIZE 128
+#define global static
 
 typedef char  int8;
 typedef short int16;
