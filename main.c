@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "helpers.h"
 
-#define global static
-
 
 double pow(int32 number, int32 power);
 double to_float(char *string);
