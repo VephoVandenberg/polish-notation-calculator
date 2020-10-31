@@ -21,7 +21,7 @@ typedef struct
 
 typedef struct
 {
-    char buffer[BUFFER_SIZE];
+    char buffer[MAX_LEN];
     uint8 buffer_pointer;
 } buffer_t;
 
@@ -269,7 +269,7 @@ int32 getch(void)
 
 void ungetch(char character)
 {
-    if (input_buffer.buffer_pointer <  BUFFER_SIZE)
+    if (input_buffer.buffer_pointer <  MAX_LEN)
     {
 	input_buffer.buffer[input_buffer.buffer_pointer++] = character;
     }
