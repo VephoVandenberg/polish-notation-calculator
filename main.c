@@ -73,7 +73,7 @@ int main(int argc, char **argv)
     printf("\t 2) Print top element without poping - '#'\n");
     printf("\t 3) Clear every data structure we have - '~'\n");
     printf("\t 4) Duplicate top element of the stack - ':'\n");
-    printf("If you want to quit, print 'q' or 'Q'.(P.S. You  cannot declare variables with these names\n");
+    printf("If you want to quit, print 'q' or 'Q'.(P.S. You  cannot declare variables with these names)\n");
     printf("To pop out elements from the stack just hit Enter.\n\n");
     
     while ((type = get_operation(string)) != EOF)
