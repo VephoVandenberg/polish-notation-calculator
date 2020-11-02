@@ -1,6 +1,6 @@
 
-
 #define NUMBER '0'
+#define VAR_DETECTED 'a'
 #define MAX_LEN 128
 #define global static
 
