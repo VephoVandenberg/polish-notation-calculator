@@ -1,5 +1,8 @@
 #include "functionality.h"
 
+// I require that these global variables
+// won't be accesseble by other files
+
 global stack_t stack_buffer;
 global buffer_t input_buffer;
 global variables_space_t variables;
