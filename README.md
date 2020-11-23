@@ -4,7 +4,7 @@ Here is implementation of reverse polish calculator, I've created this for educa
 
 # Functionality
 Restrictions for variable declaration are next: 
-- First goes a variable, for example: A 2 =, c 3 6 + 2 - =. 
+- First goes a variable, for example: 'A 2 =', 'c 3 6 + 2 - ='. 
 - You may declare a variable using 1 character, from a-z and A-Z.
 
 You can perform following operations.
