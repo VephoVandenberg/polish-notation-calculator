@@ -17,5 +17,5 @@ You can perform following operations.
 If you want to quit, print 'q' or 'Q'. (P.S. You  cannot declare variables with these names)
 
 # Compilation
-To compile this calculator I used MSVC. On Windows I prefer to use .bat files for building projects.
+To compile this calculator I used MSVC. On Windows I prefer to use .bat files for building projects. On Linux I use standard makefile.
 
