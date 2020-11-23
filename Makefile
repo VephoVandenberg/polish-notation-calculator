@@ -5,10 +5,9 @@ output: main.o functionality.o
 main.o:
   gcc -c main.cpp
 
-
 fuinctionality.o: functionality.c functionality.h
   gcc -c functionality.c
  
- clean:
+clean:
   rm *.o output
   
