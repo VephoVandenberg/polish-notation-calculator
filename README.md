@@ -14,7 +14,7 @@ You can perform following operations.
 - Clear every data structure we have - '~'.
 - Duplicate top element of the stack - ':'.
 
-If you want to quit, print 'q' or 'Q'. (P.S. You  cannot declare variables with these names)
+If you want to quit, print 'q' or 'Q'. (P.S. You  cannot declare variables with these letters)
 
 # Compilation
 To compile this calculator I used MSVC. On Windows I prefer to use Batchfiles for building projects, so you can make that too. On Linux I use standard Makefile.
